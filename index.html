@@ -28,7 +28,7 @@
       <div class="reveal">
          <div class="slides">
             <!-- Section -->
-            <section data-background="images/ut.jpg" data-background-size="100%" style="opacity: 10%;">
+            <section data-background="images/ut.jpg" data-background-size="100%">
               <h1>Computational Geomechanics</h1>
               <br/>
               <img style="border:0;" src="images/themes/ut.png" width="40%">
@@ -40,61 +40,26 @@
               <br/>
               <h3>UT Geotech Grad Open House<br/>28th February 2019</h3>
             </section>
+            <!-- Modelling soil -->
             <section>
-               <!-- Modelling soil -->
-               <section>
-                 <h2>Scales of modeling soil</h2>
-                 <figure>
-                   <img style = "border:0; box-shadow: 0 0 0px;" src="images/soil-scale.png" width="100%">
-                 </figure>
-               </section>
+              <h2>Scales of modeling soil</h2>
+              <figure>
+                <img style = "border:0; box-shadow: 0 0 0px;" src="images/soil-scale.png" width="100%">
+              </figure>
             </section>
             <!-- Numerical modeling -->
             <section>
-               <!-- Discrete Element Method -->
-               <section>
-                  <h2>Discrete Element Method</h2>
-                  <div style="float: left; width: 50%;">
-                     <ul>
-                        <li> Particle level interaction based on Newton's equation
-                           of motion
-                        </li>
-                        <br />
-                        <li> The contact force is computed as: </li>
-                        <br />
-                        <div class="block" style="clear: both; width: 85%">
-                           $F_n=\left\{ \begin{matrix} \text{              }0\text{         },\text{ }{{\delta }_{n}}>0  \\
-                           -{{k}_{n}}{{\delta }_{n}}-{{\gamma }_{n}}\frac{d{{\delta }_{n}}}{dt},\text{ }{{\delta }_{n}}<0  \\
-                           \end{matrix} \right.$
-                        </div>
-                        <br />
-                        <li> The Newton's equation of motion </li>
-                        <br />
-                        <div class="block" style="clear: both; width: 45%">
-                           $F_n =m \times a $
-                        </div>
-                     </ul>
-                  </div>
-                  <div style="float: right; width: 50%;">
-                     <video  width="90%" autoplay controls loop>
-                        <source src="media/tennis_balls.webm" type="video/webm">
-                        Your browser does not support the video tag.
-                     </video>
-                  </div>
-               </section>
-               <!--- DEM applications -->
-               <section>
-                <h2>Applications of DEM</h2>
-                  <video  width="90%"  controls loop muted>
-                    <source src="media/dem.webm" type="video/webm">
-                      Your browser does not support the video tag.
-                  </video>
-                <p>
-                  <a href="https://www.youtube.com/watch?v=Qf-5d9KgcqQ">Satori Tsuzuki et al (2016)
-                  </a>
-                </p>
-              </section>            
-
+              <!-- Aerial landslides -->
+              <section>
+                <h2>Global landslide hazard</h2>
+                <figure>
+                  <img style="border:0;" src="images/landslide-deaths.png" width="100%">
+                  <figcaption>
+                    Fatalities due to landslides, 2007 - 2013 (Source: Nasa, 2015).
+                  </figcaption>
+                </figure>
+              </section>
+              
               <!-- MPM -->
               <section>
                 <h2>Disney's Frozen: Snow simulation</h2>
@@ -146,6 +111,37 @@
                      <li>Material type influences the mode of the flow.</li>
                      <li>Target: Clay‐rich flow (Less diffusive, Hydroplaning).</li>
                   </ul>
+               </section>
+               <!-- Discrete Element Method -->
+               <section>
+                  <h2>Discrete Element Method</h2>
+                  <div style="float: left; width: 50%;">
+                     <ul>
+                        <li> Particle level interaction based on Newton's equation
+                           of motion
+                        </li>
+                        <br />
+                        <li> The contact force is computed as: </li>
+                        <br />
+                        <div class="block" style="clear: both; width: 85%">
+                           $F_n=\left\{ \begin{matrix} \text{              }0\text{         },\text{ }{{\delta }_{n}}>0  \\
+                           -{{k}_{n}}{{\delta }_{n}}-{{\gamma }_{n}}\frac{d{{\delta }_{n}}}{dt},\text{ }{{\delta }_{n}}<0  \\
+                           \end{matrix} \right.$
+                        </div>
+                        <br />
+                        <li> The Newton's equation of motion </li>
+                        <br />
+                        <div class="block" style="clear: both; width: 45%">
+                           $F_n =m \times a $
+                        </div>
+                     </ul>
+                  </div>
+                  <div style="float: right; width: 50%;">
+                     <video  width="90%" autoplay controls loop>
+                        <source src="media/tennis_balls.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                     </video>
+                  </div>
                </section>
                <!-- Effect of slope -->
                <section>
