@@ -3,7 +3,7 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-      <title>Large deformation modeling in geomechanics</title>
+      <title>Computational Geomechanics</title>
       <link rel="stylesheet" href="css/reveal.css">
       <link rel="stylesheet" href="css/theme/burntorange.css">
       <!-- Theme used for syntax highlighting of code -->
@@ -29,46 +29,19 @@
          <div class="slides">
             <!-- Section -->
             <section>
-              <h2>Large deformation modeling in geomechanics</h2>
-              <h3>MPM and LBM-DEM</h3>
+              <h2>Computational Geomechanics</h2>
+              <br/>
+              <img style="border:0;" src="images/themes/ut.png" width="40%">
+              <br/>
               <p>
                 <br/>Krishna Kumar, <a href="mailto:krishnak@utexas.edu">krishnak@utexas.edu</a>
                 <br/>University of Texas at Austin
               </p>
               <br/>
-              <div style="clear: both; width: 100%">
-                <img style="border:0;" src="images/themes/ut.png" width="40%">
-                <br/><br/>
-                <h4>UT Geotech Grad Open House<br/>28th February 2019</h4>
-              </div>
+              <h4>UT Geotech Grad Open House<br/>28th February 2019</h4>
             </section>
             <section>
-               <!-- Numerical methods -->
-               <section>
-                <h3>Computational Geomechanics</h3>
-                <ul>
-                   <li> Material Point Method </li>
-                   <li> Lattice-Boltzmann + Discrete Element Method </li>
-                   <li> Finite Element Method - Thermo-Hydro Mechanical Coupling</li>
-                   <li> Lattice Element Method </li>
-                </ul>
-                <figure>
-                   <img style = "border:0;" src="images/themes/cb-geo.png" width ="100%">
-                   <figcaption><a href="http://www.cb-geo.com">View the CB-Geo website for
-                      more information and software tools</a>
-                   </figcaption>
-                </figure>
-               </section>
                <!-- Aerial landslides -->
-               <section>
-                  <h2>Global landslide hazard</h2>
-                  <figure>
-                     <img style="border:0;" src="images/landslide-deaths.png" width="100%">
-                     <figcaption>
-                        Fatalities due to landslides, 2007 - 2013 (Source: Nasa, 2015).
-                     </figcaption>
-                  </figure>
-               </section>
                <section>
                   <h2>Oso landslide (2014)</h2>
                   <figure>
@@ -162,20 +135,6 @@
                   </video>
                   <p>Selborne case study of a 9 m high cut-slope slope (Soga et al., 2016)</p>
                </section>
-               <!-- Rendering-->
-               <section>
-                 <h2>Photo-realistic rendering</h2>
-                 <ul>
-                   <li>HDF5 + VTK</li>
-                   <li>Disney Partio: Houdini / Maya / Pixar's RenderMan</li>
-                 </ul>
-                 <figure>
-                   <img style = "border:0;" src="images/mpm-rendering.png" width="80%">
-                   <figcaption>
-                     Photo-realistic rendering of compression of choco balls with Houdini
-                   </figcaption>
-                 </figure>
-               </section>
             </section>
             <!-- Underwater landslides -->
             <section>
@@ -259,15 +218,6 @@
                   <li> LBM Nodes = 50 Million : DEM grains = 10000 discs </li>
                   <li> Run-time = 4 hours </li>
                   <li> Speedup = 125x on a Pascal P100</li>
-               </section>
-               <!-- Multiphase -->
-               <section>
-                  <h2>LBM multicomponent multiphase</h2>
-                  <br/>
-                  <video  width="100%" controls loop>
-                     <source src="media/3d-lbm-multiphase.webm" type="video/webm">
-                     Your browser does not support the video tag.
-                  </video>
                </section>
             </section>
             <section>
