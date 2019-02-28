@@ -79,7 +79,7 @@
                </section>
                <!-- Modelling soil -->
                <section>
-                 <h2>Scales in modeling soil</h2>
+                 <h2>Scales of modeling soil</h2>
                  <figure>
                    <img style = "border:0; box-shadow: 0 0 0px;" src="images/soil-scale.png" width="100%">
                  </figure>
@@ -144,21 +144,6 @@
                 </p>
               </section>
 
-               <!-- Material Point Method -->
-               <section>
-                  <h2>Material Point Method</h2>
-                  <div style="float: left; width: 30%;">
-                     <figure>
-                        <img style = "border:0;" src="images/mpm_equation.png" width="100%">
-                     </figure>
-                  </div>
-                  <div style="float: left; width: 70%;">
-                     <figure>
-                        <img style = "border:0;" src="images/mpm_algorithm.png" width="100%">
-                     </figure>
-                  </div>
-               </section>
-
                <!-- MPM Simulation -->
                <section>
                  <h2>MPM submarine landslide</h2>
@@ -203,62 +188,6 @@
                      <li>Target: Clay‐rich flow (Less diffusive, Hydroplaning).</li>
                   </ul>
                </section>
-               <!-- LBM DEM a6 -->
-               <section>
-                  <h3>LBM - DEM simulation of granular collapse in a fluid</h3>
-                  <br/>
-                  <video  width="100%" controls loop>
-                     <source src="media/a6.webm" type="video/webm">
-                     Your browser does not support the video tag.
-                  </video>
-                  <br/>
-                  <br/>aspect ratio 'a' of 6 <br />
-               </section>
-               <!-- LBM MRT -->
-               <section>
-                  <h2> Lattice Boltzmann - MRT </h2>
-                  <div style="float: left; width: 47%;">
-                     <figure>
-                        <img style = "border:0;" src="images/lbm_fluid.png" width ="80%">
-                        <figcaption style = "font-size: 80%; text-align: center; "> Real Fluid vs LBM Idealisation </figcaption>
-                     </figure>
-                  </div>
-                  <div style="float: right; width: 47%;">
-                     <figure>
-                        <img style = "border:0;" src="images/d2q9.png" width = "80%">
-                        <figcaption style = "font-size: 80%; text-align: center;">
-                           LBM D2Q9 Model
-                        </figcaption>
-                     </figure>
-                  </div>
-                  <br/>
-                  <div style="clear: both; width: 85%">
-                     \[f_{i}(x + dx, t +\Delta t) - f_{i}(x, t) = -S_{\alpha i}(
-                     f_{i}(x, t) - f_{i} ^ {eq}(x, t))\]
-                  </div>
-                  <ul>
-                     <li>$S_{\alpha i}$ is the collisional matrix.</li>
-                     <li>Probability density of finding a particle : $f(x,\varepsilon, t) $,
-                        where, x is position, $\varepsilon$ is velocity, and t is time.
-                     </li>
-                  </ul>
-                  <div style="float: left; width: 47%;">
-                     <figure>
-                        <img style = "border:0;" src = "images/stream.png" width = "80%">
-                        <figcaption style = "font-size: 80%; text-align: center;">
-                           Streaming
-                        </figcaption>
-                     </figure>
-                  </div>
-                  <div style="float: right; width: 47%;">
-                     <figure>
-                        <img style = "border:0;" src = "images/collision.png" width = "80%">
-                        <figcaption style = "font-size: 80%; text-align: center;">
-                           Collision
-                        </figcaption>
-                     </figure>
-                  </div>
-               </section>
                <!-- Effect of slope -->
                <section>
                   <h3>Collapse on an inclined plane</h3>
@@ -270,20 +199,12 @@
                   <br/>
                   <br/>aspect ratio 'a' of 6 on a slope of 5*<br />
                </section>
-               <!-- Collapse of a 0.8 on slope 5 -->
+               <!-- Collapse of a 0.8 on slopes: loose v dense -->
                <section>
-                  <h2>Collapse of a dense column on an inclined plane</h2>
+                  <h2>Loose v dense: Runout phase</h2>
                   <figure>
-                     <img style = "border:0;" src="images/dense_s5_r09_1.png" width="75%">
-                     <figcaption>aspect ratio 'a' of 0.8 on a slope of 5* (dense)</figcaption>
-                  </figure>
-               </section>
-               <!-- Collapse of a 0.8 on slope 5 -->
-               <section>
-                  <h2>Collapse of a dense column on an inclined plane</h2>
-                  <figure>
-                     <img style = "border:0;" src="images/dense_s5_r09_2.png" width="75%">
-                     <figcaption>aspect ratio 'a' of 0.8 on a slope of 5* (dense)</figcaption>
+                     <img style = "border:0;" src="images/slope_outline_dense_v_loose.png" width="60%">
+                     <figcaption>Attack angle ('a' of 0.8) $t = 3 \tau_c $</figcaption>
                   </figure>
                </section>
                <!-- Collapse of a 0.8 on slopes: loose v dense -->
@@ -306,14 +227,6 @@
                <!-- Collapse of a 0.8 on slopes: loose v dense -->
                <section>
                   <h2>Loose v dense: Runout phase</h2>
-                  <figure>
-                     <img style = "border:0;" src="images/slope_outline_dense_v_loose.png" width="60%">
-                     <figcaption>Attack angle ('a' of 0.8) $t = 3 \tau_c $</figcaption>
-                  </figure>
-               </section>
-               <!-- Collapse of a 0.8 on slopes: loose v dense -->
-               <section>
-                  <h2>Loose v dense: Runout phase</h2>
                   <div style="align=center; width: 100%; broder:0">
                      <figure>
                         <img style = "border:0;" src="images/slope5_loose_15d_water_entrainment.png" width ="60%">
@@ -327,14 +240,6 @@
                   <div style="clear:both">
                      Water entrainment front (~15d length) at a slope of 5*
                   </div>
-               </section>
-               <!-- Collapse of a 0.8 on slopes: loose v dense -->
-               <section>
-                  <h2>Collapse on slopes: loose v dense</h2>
-                     <figure>
-                        <img style = "border:0;" src="images/slope5_loose_15d_water_entrainment.png" width ="60%">
-                     <figcaption>runout evolution ('a' of 0.8)</figcaption>
-                  </figure>
                </section>
                <!-- HPC -->
                <section>
