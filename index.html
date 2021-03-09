@@ -36,9 +36,9 @@
               <h2 style = "color: #ffffff">
                 Krishna Kumar, <a style = "color: #ffffff" href="mailto:krishnak@utexas.edu">krishnak@utexas.edu</a>
               </h2>
+              <a style = "color: red" href="https://www.geoelements.org/">geoelements.org</a>
               <br/>
-              <br/>
-              <h3  style = "color: #f9ffb5">UT Geotech Grad Open House<br/>4th March 2020</h3>
+              <h3  style = "color: #f9ffb5">UT Geotech Grad Open House<br/>9th March 2021</h3>
             </section>
             <!-- Numerical modeling -->
             <section>
@@ -80,33 +80,13 @@
                 </p>
               </section>
 
-               <!-- MPM rainfaill induced landslide -->
-               <section>
-                 <h2>MPM rainfall induced landslide</h2>
-                 <video  width="75%"  controls loop muted>
-                   <source src="media/rainfall-landslide.webm" type="video/webm">
-                     Your browser does not support the video tag.
-                 </video>
-               </section>
-
-               <!-- MPM rainfaill induced landslide -->
-               <section>
-                 <h2>MPM soil-water interaction</h2>
-                 <video  width="75%"  controls loop muted>
-                   <source src="media/sand-water-dam.webm" type="video/webm">
-                     Your browser does not support the video tag.
-                 </video>
-               </section>
-
-               <!-- MPM Simulation -->
-               <section>
-                 <h2>MPM submarine landslide</h2>
-                 <video  width="75%"  controls loop muted>
-                   <source src="media/mpm-submarine-landslide.webm" type="video/webm">
-                     Your browser does not support the video tag.
-                 </video>
-                 <p>Depth-averaged Material Point Method (Taka et al., 2012)</p>
-               </section>
+              <section>
+                <h2>Oso landslide simulation</h2>
+                <video  width="80%"  controls loop muted>
+                  <source src="media/oso-landslide.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+              </section>
             </section>
             <!-- Underwater landslides -->
             <section>
@@ -120,11 +100,22 @@
                </section>
                <!-- Discrete Element Method -->
                <section>
-                  <h2>Discrete Element Method</h2>
-                  <video  width="70%" autoplay controls loop>
-                    <source src="media/tennis_balls.webm" type="video/webm">
-                      Your browser does not support the video tag.
-                  </video>
+                 <h2>Discrete Element Method</h2>
+                 <div style="float: left; width: 43%;">
+                   <video  width="90%"  controls loop muted>
+                     <source src="media/tennis-balls.webm" type="video/webm">
+                       Your browser does not support the video tag.
+                   </video>
+                 </div>
+                 <div style="float: right; width: 57%;">
+                   <video  width="90%"  controls loop muted>
+                     <source src="media/bouncing-balls.webm" type="video/webm">
+                       Your browser does not support the video tag.
+                   </video>
+                 </div>
+                 <div style="clear: both">
+                   <p>Grain-scale simulation of soil</p>
+                 </div>
                </section>
                <!-- Effect of slope -->
                <section>
@@ -153,23 +144,6 @@
                      </figure>
                   </div>
                   <br/>Pore-pressure distribution along the failure plane during initiation.
-               </section>
-               <!-- Collapse of a 0.8 on slopes: loose v dense -->
-               <section>
-                  <h2>Loose v dense: Runout phase</h2>
-                  <div style="align=center; width: 100%; broder:0">
-                     <figure>
-                        <img style = "border:0;" src="images/slope5_loose_15d_water_entrainment.png" width ="60%">
-                        <figcaption style = "font-size: 80%; text-align: center; ">Loose</figcaption>
-                     </figure>
-                     <figure>
-                        <img style = "border:0;" src="images/slope5_dense_15d_water_entrainment.png" width = "60%">
-                        <figcaption style = "font-size: 80%; text-align: center;">Dense</figcaption>
-                     </figure>
-                  </div>
-                  <div style="clear:both">
-                     Water entrainment front (~15d length) at a slope of 5*
-                  </div>
                </section>
                <!-- HPC -->
                <section>
@@ -213,11 +187,11 @@
 
               <!-- Rei Hosseini -->
               <section>
-                <h2>Level-Set Discrete Element modeling</h2>
+                <h2>Discrete Element modeling of Torisonal Shear</h2>
                 <div style="float: left; width: 75%;">
                   <figure>
-                    <img style = "border:0;" src="images/ls-balls.gif" width="80%">
-                    <figcaption>Modeling shapes using Level-Sets</figcaption>
+                    <img style = "border:0;" src="images/torsional-shear.png" width="100%">
+                    <figcaption>DEM simulation</figcaption>
                   </figure>
 	        </div>	
                 <div style="float: right; width: 25%;">
@@ -232,11 +206,12 @@
               
               <!-- Amber -->
               <section>
-                <h2>Multiphase MPM modeling of submarine landslides</h2>
+                <h2>Unsaturated modeling</h2>
                 <div style="float: left; width: 75%;">
-                     <figure>
-                        <img style = "border:0;" src="images/landslide.png" width ="100%">
-	          </figure>
+                  <video  width="70%"  controls loop muted>
+                    <source src="media/lbm-unsaturated.webm" type="video/webm">
+                      Your browser does not support the video tag.
+                  </video>
 	        </div>	
                 <div style="float: right; width: 25%;">
 	          <figure>
@@ -246,6 +221,40 @@
 	          </figure>
 	        </div>
               </section>
+
+              <section>
+                <h2>CNN Full Waveform Inversion: Architecture</h2>
+                <figure>
+                  <img style = "border:0;" src="images/cnn-fwi-arch.png" width="100%">
+                  <figcaption>Vantassel et al., (2021)</figcaption>
+                </figure>
+              </section>
+
+              <section>
+                <h2>CNN Full Waveform Inversion: Training</h2>
+                <figure>
+                  <img style = "border:0;" src="images/cnn-fwi-input.png" width="100%">
+                </figure>
+              </section>
+
+              <section>
+                <h2>CNN Full Waveform Inversion</h2>
+                <figure>
+                  <img style = "border:0;" src="images/cnn-fwi.png" width="60%">
+                  <figcaption>CNN prediction of subsoil profile</figcaption>
+                </figure>
+              </section>
+
+              <section>
+                <h2>Learning to Simulate</h2>
+                <video width="100%"  controls loop muted>
+                  <source src="media/sand-3d.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+              </section>
+
+
+
               <!-- UT -->
               <section data-background="images/group-dinner.jpg" data-background-size="100%">
                 <h1 style="color:white">Thank you! <br/> and <br/> Hook 'em!</h1>
